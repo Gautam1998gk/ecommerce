@@ -22,6 +22,8 @@ const Card = ({ product }: { product: ProductProps }) => {
         href={`/products/${product.title}`}
         style={{
           backgroundImage: `url(${product.url})`,
+          width:"250px",
+          height:"200px",
         }}
         className="flex-center flex-grow bg-gray-50 bg-cover bg-center text-gray-500"
       />
